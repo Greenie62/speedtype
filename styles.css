@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.app{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:column;
+    height:90vh;
+}
+
+body{
+    background:linear-gradient(to right,lightgray,rgb(197, 185, 185))
+}
+
+
+.gamecontainer{
+    height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.gamecard{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:column;
+    height:40vh;
+}
+
+.start-button{
+    width:125px;
+    height:45px;
+    background:rgb(0,0,255,0.8);
+    border-radius:15%;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.start-button:hover{
+    text-decoration:underline;
+}
+
+.playerinput{
+    width:200px;
+    height:30px;
+    font-size:20px;
+    box-shadow:0 0 2px 3px rgb(0,0,0,0.3)
+}
+
+
+
+@media screen and (max-width:500px){
+    .headerh1{
+        font-size:20px;
+    }
+}
